@@ -1,0 +1,1543 @@
+{
+  "models": [
+    {
+      "id": "openai-o3",
+      "name": "OpenAI o3",
+      "provider": "OpenAI",
+      "description": {
+        "en": "Advanced Chain-of-Thought reasoning model.",
+        "it": "Modello avanzato di ragionamento Chain-of-Thought.",
+        "fr": "Modèle de raisonnement Chain-of-Thought avancé.",
+        "de": "Fortgeschrittenes Chain-of-Thought Reasoning-Modell."
+      },
+      "strengths": {
+        "en": ["Deep Reasoning", "Math", "Science"],
+        "it": ["Ragionamento Profondo", "Matematica", "Scienza"],
+        "fr": ["Raisonnement Profond", "Maths", "Science"],
+        "de": ["Tiefes Denken", "Mathematik", "Wissenschaft"]
+      }
+    },
+    {
+      "id": "openai-o3-mini",
+      "name": "OpenAI o3-mini",
+      "provider": "OpenAI",
+      "description": {
+        "en": "Efficient reasoning model for speed.",
+        "it": "Modello di ragionamento efficiente per velocità.",
+        "fr": "Modèle de raisonnement efficace pour la vitesse.",
+        "de": "Effizientes Reasoning-Modell für Geschwindigkeit."
+      },
+      "strengths": {
+        "en": ["Fast CoT", "Logic", "Cost-Effective"],
+        "it": ["CoT Veloce", "Logica", "Economico"],
+        "fr": ["CoT Rapide", "Logique", "Économique"],
+        "de": ["Schnelles CoT", "Logik", "Kosteneffizient"]
+      }
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "provider": "OpenAI",
+      "description": {
+        "en": "Flagship multimodal model.",
+        "it": "Modello multimodale di punta.",
+        "fr": "Modèle multimodal phare.",
+        "de": "Flaggschiff-Multimodal-Modell."
+      },
+      "strengths": {
+        "en": ["Multimodal", "Balanced", "Reliable"],
+        "it": ["Multimodale", "Bilanciato", "Affidabile"],
+        "fr": ["Multimodal", "Équilibré", "Fiable"],
+        "de": ["Multimodal", "Ausgewogen", "Zuverlässig"]
+      }
+    },
+    {
+      "id": "gpt-4.1",
+      "name": "GPT-4.1",
+      "provider": "OpenAI",
+      "description": {
+        "en": "Iterative improvement on GPT-4 architecture.",
+        "it": "Miglioramento iterativo dell'architettura GPT-4.",
+        "fr": "Amélioration itérative de l'architecture GPT-4.",
+        "de": "Iterative Verbesserung der GPT-4-Architektur."
+      },
+      "strengths": {
+        "en": ["Adherence", "Robustness", "Logic"],
+        "it": ["Aderenza", "Robustezza", "Logica"],
+        "fr": ["Adhérence", "Robustesse", "Logique"],
+        "de": ["Befolgung", "Robustheit", "Logik"]
+      }
+    },
+    {
+      "id": "gpt-4.5-orion",
+      "name": "GPT-4.5 (Orion)",
+      "provider": "OpenAI",
+      "description": {
+        "en": "Massive scale world-knowledge model.",
+        "it": "Modello di conoscenza mondiale su larga scala.",
+        "fr": "Modèle de connaissances mondiales à grande échelle.",
+        "de": "Massives Weltwissen-Modell."
+      },
+      "strengths": {
+        "en": ["Knowledge", "Nuance", "Scale"],
+        "it": ["Conoscenza", "Sfumature", "Scala"],
+        "fr": ["Connaissance", "Nuance", "Échelle"],
+        "de": ["Wissen", "Nuancen", "Skalierung"]
+      }
+    },
+    {
+      "id": "gpt-5",
+      "name": "GPT-5",
+      "provider": "OpenAI",
+      "description": {
+        "en": "Next-gen AGI frontier model.",
+        "it": "Modello di frontiera AGI di nuova generazione.",
+        "fr": "Modèle de frontière AGI nouvelle génération.",
+        "de": "AGI-Grenzmodell der nächsten Generation."
+      },
+      "strengths": {
+        "en": ["AGI-class Reasoning", "Zero-Shot", "Agents"],
+        "it": ["Ragionamento AGI", "Zero-Shot", "Agenti"],
+        "fr": ["Raisonnement AGI", "Zero-Shot", "Agents"],
+        "de": ["AGI-Denken", "Zero-Shot", "Agenten"]
+      }
+    },
+    {
+      "id": "gpt-5.1",
+      "name": "GPT-5.1",
+      "provider": "OpenAI",
+      "description": {
+        "en": "Optimized GPT-5 iteration.",
+        "it": "Iterazione ottimizzata di GPT-5.",
+        "fr": "Itération optimisée de GPT-5.",
+        "de": "Optimierte GPT-5-Iteration."
+      },
+      "strengths": {
+        "en": ["Creativity", "Speed", "Fluidity"],
+        "it": ["Creatività", "Velocità", "Fluidità"],
+        "fr": ["Créativité", "Vitesse", "Fluidité"],
+        "de": ["Kreativität", "Geschwindigkeit", "Flüssigkeit"]
+      }
+    },
+    {
+      "id": "claude-3-5-sonnet",
+      "name": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "description": {
+        "en": "Exceptional coding and reasoning balance.",
+        "it": "Eccezionale equilibrio tra coding e ragionamento.",
+        "fr": "Équilibre exceptionnel entre codage et raisonnement.",
+        "de": "Außergewöhnliche Balance zwischen Coding und Reasoning."
+      },
+      "strengths": {
+        "en": ["Coding", "Reasoning", "Vision"],
+        "it": ["Coding", "Ragionamento", "Visione"],
+        "fr": ["Codage", "Raisonnement", "Vision"],
+        "de": ["Coding", "Reasoning", "Vision"]
+      }
+    },
+    {
+      "id": "claude-4-sonnet",
+      "name": "Claude 4 Sonnet",
+      "provider": "Anthropic",
+      "description": {
+        "en": "Next-gen balanced model.",
+        "it": "Modello bilanciato di nuova generazione.",
+        "fr": "Modèle équilibré nouvelle génération.",
+        "de": "Ausgewogenes Modell der nächsten Generation."
+      },
+      "strengths": {
+        "en": ["Efficiency", "Intelligence", "Agents"],
+        "it": ["Efficienza", "Intelligenza", "Agenti"],
+        "fr": ["Efficacité", "Intelligence", "Agents"],
+        "de": ["Effizienz", "Intelligenz", "Agenten"]
+      }
+    },
+    {
+      "id": "claude-3-opus",
+      "name": "Claude 3 Opus",
+      "provider": "Anthropic",
+      "description": {
+        "en": "Deep nuance and creative writing.",
+        "it": "Sfumature profonde e scrittura creativa.",
+        "fr": "Nuances profondes et écriture créative.",
+        "de": "Tiefe Nuancen und kreatives Schreiben."
+      },
+      "strengths": {
+        "en": ["Writing", "Nuance", "Context"],
+        "it": ["Scrittura", "Sfumature", "Contesto"],
+        "fr": ["Écriture", "Nuance", "Contexte"],
+        "de": ["Schreiben", "Nuancen", "Kontext"]
+      }
+    },
+    {
+      "id": "claude-4-opus",
+      "name": "Claude 4 Opus",
+      "provider": "Anthropic",
+      "description": {
+        "en": "Peak performance Anthropic model.",
+        "it": "Modello Anthropic ad alte prestazioni.",
+        "fr": "Modèle Anthropic haute performance.",
+        "de": "Hochleistungs-Anthropic-Modell."
+      },
+      "strengths": {
+        "en": ["Empathy", "Complex Tasks", "Safety"],
+        "it": ["Empatia", "Task Complessi", "Sicurezza"],
+        "fr": ["Empathie", "Tâches Complexes", "Sécurité"],
+        "de": ["Empathie", "Komplexe Aufgaben", "Sicherheit"]
+      }
+    },
+    {
+      "id": "gemini-1.5-pro",
+      "name": "Gemini 1.5 Pro",
+      "provider": "Google",
+      "description": {
+        "en": "2M+ context window champion.",
+        "it": "Campione di finestra di contesto 2M+.",
+        "fr": "Champion de fenêtre de contexte 2M+.",
+        "de": "2M+ Kontextfenster-Champion."
+      },
+      "strengths": {
+        "en": ["Long Context", "Retrieval", "Multimodal"],
+        "it": ["Contesto Lungo", "Retrieval", "Multimodale"],
+        "fr": ["Contexte Long", "Récupération", "Multimodal"],
+        "de": ["Langer Kontext", "Abruf", "Multimodal"]
+      }
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "description": {
+        "en": "Enhanced multimodal reasoning.",
+        "it": "Ragionamento multimodale avanzato.",
+        "fr": "Raisonnement multimodal amélioré.",
+        "de": "Verbessertes multimodales Reasoning."
+      },
+      "strengths": {
+        "en": ["Native Audio/Video", "Fluidity", "Reasoning"],
+        "it": ["Audio/Video Nativo", "Fluidità", "Ragionamento"],
+        "fr": ["Audio/Vidéo Natif", "Fluidité", "Raisonnement"],
+        "de": ["Native Audio/Video", "Flüssigkeit", "Reasoning"]
+      }
+    },
+    {
+      "id": "gemini-3-pro",
+      "name": "Gemini 3 Pro",
+      "provider": "Google",
+      "description": {
+        "en": "Cognitive architecture breakthrough.",
+        "it": "Svolta nell'architettura cognitiva.",
+        "fr": "Percée architecturale cognitive.",
+        "de": "Kognitive Architektur-Durchbruch."
+      },
+      "strengths": {
+        "en": ["Recursive Thinking", "Memory", "Planning"],
+        "it": ["Pensiero Ricorsivo", "Memoria", "Pianificazione"],
+        "fr": ["Pensée Récursive", "Mémoire", "Planification"],
+        "de": ["Rekursives Denken", "Gedächtnis", "Planung"]
+      }
+    },
+    {
+      "id": "gemma-3-27b",
+      "name": "Gemma 3 27b",
+      "provider": "Google",
+      "description": {
+        "en": "High-performance open weights.",
+        "it": "Pesi aperti ad alte prestazioni.",
+        "fr": "Poids ouverts haute performance.",
+        "de": "Hochleistungs-Open-Weights."
+      },
+      "strengths": {
+        "en": ["Efficient", "Local-Ready", "Text"],
+        "it": ["Efficiente", "Pronto Locale", "Testo"],
+        "fr": ["Efficace", "Prêt Local", "Texte"],
+        "de": ["Effizient", "Lokal-Ready", "Text"]
+      }
+    },
+    {
+      "id": "llama-3-70b",
+      "name": "Llama 3 70B",
+      "provider": "Meta",
+      "description": {
+        "en": "The open-source standard.",
+        "it": "Lo standard open-source.",
+        "fr": "Le standard open-source.",
+        "de": "Der Open-Source-Standard."
+      },
+      "strengths": {
+        "en": ["Open Source", "Chat", "Generalist"],
+        "it": ["Open Source", "Chat", "Generalista"],
+        "fr": ["Open Source", "Chat", "Généraliste"],
+        "de": ["Open Source", "Chat", "Generalist"]
+      }
+    },
+    {
+      "id": "llama-3.3-70b",
+      "name": "Llama 3.3 70B",
+      "provider": "Meta",
+      "description": {
+        "en": "Refined post-training.",
+        "it": "Post-training raffinato.",
+        "fr": "Post-training raffiné.",
+        "de": "Verfeinertes Post-Training."
+      },
+      "strengths": {
+        "en": ["Math", "Hard Prompts", "Instruction"],
+        "it": ["Matematica", "Prompt Difficili", "Istruzione"],
+        "fr": ["Maths", "Prompts Difficiles", "Instruction"],
+        "de": ["Mathematik", "Schwere Prompts", "Anweisung"]
+      }
+    },
+    {
+      "id": "llama-4-scout",
+      "name": "Llama 4 Scout",
+      "provider": "Meta",
+      "description": {
+        "en": "Agentic workflow specialist.",
+        "it": "Specialista workflow agentici.",
+        "fr": "Spécialiste workflows agentiques.",
+        "de": "Agentischer Workflow-Spezialist."
+      },
+      "strengths": {
+        "en": ["Agents", "Tool Use", "Speed"],
+        "it": ["Agenti", "Uso Tool", "Velocità"],
+        "fr": ["Agents", "Utilisation Outils", "Vitesse"],
+        "de": ["Agenten", "Tool-Nutzung", "Geschwindigkeit"]
+      }
+    },
+    {
+      "id": "llama-4-behemoth",
+      "name": "Llama 4 Behemoth",
+      "provider": "Meta",
+      "description": {
+        "en": "Massive dense model.",
+        "it": "Modello denso massivo.",
+        "fr": "Modèle dense massif.",
+        "de": "Massives dichtes Modell."
+      },
+      "strengths": {
+        "en": ["Knowledge", "Complexity", "Exhaustive"],
+        "it": ["Conoscenza", "Complessità", "Esaustivo"],
+        "fr": ["Connaissance", "Complexité", "Exhaustif"],
+        "de": ["Wissen", "Komplexität", "Erschöpfend"]
+      }
+    },
+    {
+      "id": "grok-3",
+      "name": "Grok 3",
+      "provider": "xAI",
+      "description": {
+        "en": "Real-time, witty, unfiltered.",
+        "it": "Real-time, spiritoso, senza filtri.",
+        "fr": "Temps réel, spirituel, non filtré.",
+        "de": "Echtzeit, witzig, ungefiltert."
+      },
+      "strengths": {
+        "en": ["Real-time Data", "Wit", "Uncensored"],
+        "it": ["Dati Real-time", "Spirito", "Non censurato"],
+        "fr": ["Données Temps Réel", "Esprit", "Non censuré"],
+        "de": ["Echtzeit-Daten", "Witz", "Unzensiert"]
+      }
+    },
+    {
+      "id": "grok-4",
+      "name": "Grok 4",
+      "provider": "xAI",
+      "description": {
+        "en": "Compute-heavy super-intelligence.",
+        "it": "Super-intelligenza ad alto calcolo.",
+        "fr": "Super-intelligence à calcul intensif.",
+        "de": "Rechenintensive Super-Intelligenz."
+      },
+      "strengths": {
+        "en": ["Raw Power", "Compute", "Physics"],
+        "it": ["Potenza Grezza", "Calcolo", "Fisica"],
+        "fr": ["Puissance Brute", "Calcul", "Physique"],
+        "de": ["Rohe Kraft", "Berechnung", "Physik"]
+      }
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "DeepSeek R1",
+      "provider": "DeepSeek",
+      "description": {
+        "en": "Open reasoning model (CoT).",
+        "it": "Modello di ragionamento aperto (CoT).",
+        "fr": "Modèle de raisonnement ouvert (CoT).",
+        "de": "Offenes Reasoning-Modell (CoT)."
+      },
+      "strengths": {
+        "en": ["Chain of Thought", "Math", "Open"],
+        "it": ["Chain of Thought", "Matematica", "Aperto"],
+        "fr": ["Chain of Thought", "Maths", "Ouvert"],
+        "de": ["Chain of Thought", "Mathematik", "Offen"]
+      }
+    },
+    {
+      "id": "qwen-3-thinking",
+      "name": "Qwen 3 (Thinking)",
+      "provider": "Alibaba",
+      "description": {
+        "en": "32k Thinking process model.",
+        "it": "Modello con processo di pensiero 32k.",
+        "fr": "Modèle de processus de pensée 32k.",
+        "de": "32k Denkprozess-Modell."
+      },
+      "strengths": {
+        "en": ["STEM", "Hard Logic", "CoT"],
+        "it": ["STEM", "Logica Difficile", "CoT"],
+        "fr": ["STEM", "Logique Difficile", "CoT"],
+        "de": ["STEM", "Schwere Logik", "CoT"]
+      }
+    },
+    {
+      "id": "qwen-2.5-72b",
+      "name": "Qwen 2.5 72B",
+      "provider": "Alibaba",
+      "description": {
+        "en": "Strong generalist.",
+        "it": "Forte generalista.",
+        "fr": "Fort généraliste.",
+        "de": "Starker Generalist."
+      },
+      "strengths": {
+        "en": ["Math", "Code", "Balanced"],
+        "it": ["Matematica", "Codice", "Bilanciato"],
+        "fr": ["Maths", "Code", "Équilibré"],
+        "de": ["Mathematik", "Code", "Ausgewogen"]
+      }
+    },
+    {
+      "id": "mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "provider": "Mistral",
+      "description": {
+        "en": "European precision & efficiency.",
+        "it": "Precisione ed efficienza europea.",
+        "fr": "Précision et efficacité européennes.",
+        "de": "Europäische Präzision & Effizienz."
+      },
+      "strengths": {
+        "en": ["Concise", "Multi-lingual", "Smart"],
+        "it": ["Conciso", "Multilingue", "Intelligente"],
+        "fr": ["Concis", "Multilingue", "Intelligent"],
+        "de": ["Prägnant", "Mehrsprachig", "Intelligent"]
+      }
+    },
+    {
+      "id": "mistral-large",
+      "name": "Mistral Large",
+      "provider": "Mistral",
+      "description": {
+        "en": "Top-tier European model.",
+        "it": "Modello europeo di alto livello.",
+        "fr": "Modèle européen haut de gamme.",
+        "de": "Europäisches Top-Modell."
+      },
+      "strengths": {
+        "en": ["Reasoning", "Multi-lingual", "Code"],
+        "it": ["Ragionamento", "Multilingue", "Codice"],
+        "fr": ["Raisonnement", "Multilingue", "Code"],
+        "de": ["Reasoning", "Mehrsprachig", "Code"]
+      }
+    },
+    {
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "provider": "Moonshot",
+      "description": {
+        "en": "Long-context reasoning.",
+        "it": "Ragionamento a contesto lungo.",
+        "fr": "Raisonnement à contexte long.",
+        "de": "Long-Context-Reasoning."
+      },
+      "strengths": {
+        "en": ["Context", "Planning", "Chinese/English"],
+        "it": ["Contesto", "Pianificazione", "Cinese/Inglese"],
+        "fr": ["Contexte", "Planification", "Chinois/Anglais"],
+        "de": ["Kontext", "Planung", "Chinesisch/Englisch"]
+      }
+    },
+    {
+      "id": "nova-pro",
+      "name": "Nova Pro",
+      "provider": "Other",
+      "description": {
+        "en": "Reliable generalist.",
+        "it": "Generalista affidabile.",
+        "fr": "Généraliste fiable.",
+        "de": "Zuverlässiger Generalist."
+      },
+      "strengths": {
+        "en": ["Balanced", "Enterprise", "Safety"],
+        "it": ["Bilanciato", "Enterprise", "Sicurezza"],
+        "fr": ["Équilibré", "Entreprise", "Sécurité"],
+        "de": ["Ausgewogen", "Enterprise", "Sicherheit"]
+      }
+    },
+    {
+      "id": "grok-1.5",
+      "name": "Grok 1.5",
+      "provider": "xAI",
+      "description": {
+        "en": "Capable witty model.",
+        "it": "Modello capace e spiritoso.",
+        "fr": "Modèle capable et spirituel.",
+        "de": "Fähiges witziges Modell."
+      },
+      "strengths": {
+        "en": ["Humor", "Context", "Speed"],
+        "it": ["Umorismo", "Contesto", "Velocità"],
+        "fr": ["Humour", "Contexte", "Vitesse"],
+        "de": ["Humor", "Kontext", "Geschwindigkeit"]
+      }
+    },
+    {
+      "id": "deepseek-3.1",
+      "name": "DeepSeek 3.1",
+      "provider": "DeepSeek",
+      "description": {
+        "en": "Strong open model.",
+        "it": "Forte modello aperto.",
+        "fr": "Fort modèle ouvert.",
+        "de": "Starkes offenes Modell."
+      },
+      "strengths": {
+        "en": ["Code", "Math", "Open"],
+        "it": ["Codice", "Matematica", "Aperto"],
+        "fr": ["Code", "Maths", "Ouvert"],
+        "de": ["Code", "Mathematik", "Offen"]
+      }
+    }
+  ],
+  "useCases": [
+    {
+      "id": "coding",
+      "icon": "Terminal",
+      "translations": {
+        "en": { "name": "Coding Assistant" },
+        "it": { "name": "Assistente Coding" },
+        "fr": { "name": "Assistant Code" },
+        "de": { "name": "Coding-Assistent" }
+      },
+      "fields": [
+        {
+          "key": "language",
+          "type": "text",
+          "placeholder": "Python, TypeScript...",
+          "translations": {
+            "en": { "label": "Programming Language" },
+            "it": { "label": "Linguaggio di Programmazione" },
+            "fr": { "label": "Langage de Programmation" },
+            "de": { "label": "Programmiersprache" }
+          }
+        },
+        {
+          "key": "framework",
+          "type": "text",
+          "placeholder": "React, Django...",
+          "translations": {
+            "en": { "label": "Framework / Library" },
+            "it": { "label": "Framework / Libreria" },
+            "fr": { "label": "Framework / Bibliothèque" },
+            "de": { "label": "Framework / Bibliothek" }
+          }
+        },
+        {
+          "key": "level",
+          "type": "select",
+          "placeholder": "Select...",
+          "options": ["Junior", "Senior", "Staff", "Principal"],
+          "translations": {
+            "en": { "label": "Expertise Level" },
+            "it": { "label": "Livello Esperienza" },
+            "fr": { "label": "Niveau d'Expertise" },
+            "de": { "label": "Erfahrungsstufe" }
+          }
+        },
+        {
+          "key": "problem",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Problem Description" },
+            "it": { "label": "Descrizione Problema" },
+            "fr": { "label": "Description du Problème" },
+            "de": { "label": "Problembeschreibung" }
+          }
+        },
+        {
+          "key": "extraInstructions",
+          "type": "textarea",
+          "placeholder": "...",
+          "hint": "Optional",
+          "translations": {
+            "en": { "label": "Extra Constraints" },
+            "it": { "label": "Vincoli Extra" },
+            "fr": { "label": "Contraintes Supplémentaires" },
+            "de": { "label": "Zusätzliche Einschränkungen" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "icon": "PenTool",
+      "translations": {
+        "en": { "name": "Content Writing" },
+        "it": { "name": "Scrittura Contenuti" },
+        "fr": { "name": "Rédaction de Contenu" },
+        "de": { "name": "Content-Erstellung" }
+      },
+      "fields": [
+        {
+          "key": "topic",
+          "type": "text",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Topic / Subject" },
+            "it": { "label": "Argomento" },
+            "fr": { "label": "Sujet" },
+            "de": { "label": "Thema" }
+          }
+        },
+        {
+          "key": "tone",
+          "type": "text",
+          "placeholder": "Professional, Witty...",
+          "translations": {
+            "en": { "label": "Tone of Voice" },
+            "it": { "label": "Tono di Voce" },
+            "fr": { "label": "Ton de Voix" },
+            "de": { "label": "Tonfall" }
+          }
+        },
+        {
+          "key": "audience",
+          "type": "text",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Target Audience" },
+            "it": { "label": "Pubblico Target" },
+            "fr": { "label": "Public Cible" },
+            "de": { "label": "Zielgruppe" }
+          }
+        },
+        {
+          "key": "format",
+          "type": "text",
+          "placeholder": "Blog, Tweet...",
+          "translations": {
+            "en": { "label": "Output Format" },
+            "it": { "label": "Formato Output" },
+            "fr": { "label": "Format de Sortie" },
+            "de": { "label": "Ausgabeformat" }
+          }
+        },
+        {
+          "key": "goal",
+          "type": "text",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Primary Goal" },
+            "it": { "label": "Obiettivo Primario" },
+            "fr": { "label": "Objectif Principal" },
+            "de": { "label": "Hauptziel" }
+          }
+        },
+        {
+          "key": "extraInstructions",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Extra Constraints" },
+            "it": { "label": "Vincoli Extra" },
+            "fr": { "label": "Contraintes Supplémentaires" },
+            "de": { "label": "Zusätzliche Einschränkungen" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "icon": "BarChart",
+      "translations": {
+        "en": { "name": "Data Analysis" },
+        "it": { "name": "Analisi Dati" },
+        "fr": { "name": "Analyse de Données" },
+        "de": { "name": "Datenanalyse" }
+      },
+      "fields": [
+        {
+          "key": "dataDescription",
+          "type": "textarea",
+          "placeholder": "CSV snippet, JSON structure...",
+          "translations": {
+            "en": { "label": "Data Description" },
+            "it": { "label": "Descrizione Dati" },
+            "fr": { "label": "Description des Données" },
+            "de": { "label": "Datenbeschreibung" }
+          }
+        },
+        {
+          "key": "objective",
+          "type": "text",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Analysis Objective" },
+            "it": { "label": "Obiettivo Analisi" },
+            "fr": { "label": "Objectif d'Analyse" },
+            "de": { "label": "Analyseziel" }
+          }
+        },
+        {
+          "key": "format",
+          "type": "select",
+          "placeholder": "Select...",
+          "options": ["Bullet Points", "Summary", "Detailed Report", "SQL"],
+          "translations": {
+            "en": { "label": "Output Format" },
+            "it": { "label": "Formato Output" },
+            "fr": { "label": "Format de Sortie" },
+            "de": { "label": "Ausgabeformat" }
+          }
+        },
+        {
+          "key": "extraInstructions",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Extra Constraints" },
+            "it": { "label": "Vincoli Extra" },
+            "fr": { "label": "Contraintes Supplémentaires" },
+            "de": { "label": "Zusätzliche Einschränkungen" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "roleplay",
+      "icon": "Drama",
+      "translations": {
+        "en": { "name": "Persona / Roleplay" },
+        "it": { "name": "Persona / Roleplay" },
+        "fr": { "name": "Jeu de Rôle" },
+        "de": { "name": "Rollenspiel" }
+      },
+      "fields": [
+        {
+          "key": "character",
+          "type": "text",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Character Name" },
+            "it": { "label": "Nome Personaggio" },
+            "fr": { "label": "Nom du Personnage" },
+            "de": { "label": "Charaktername" }
+          }
+        },
+        {
+          "key": "traits",
+          "type": "text",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Personality Traits" },
+            "it": { "label": "Tratti Personalità" },
+            "fr": { "label": "Traits de Personnalité" },
+            "de": { "label": "Persönlichkeitsmerkmale" }
+          }
+        },
+        {
+          "key": "setting",
+          "type": "text",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Setting / Context" },
+            "it": { "label": "Ambientazione / Contesto" },
+            "fr": { "label": "Cadre / Contexte" },
+            "de": { "label": "Einstellung / Kontext" }
+          }
+        },
+        {
+          "key": "scenario",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Scenario Description" },
+            "it": { "label": "Descrizione Scenario" },
+            "fr": { "label": "Description du Scénario" },
+            "de": { "label": "Szenariobeschreibung" }
+          }
+        },
+        {
+          "key": "extraInstructions",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Extra Constraints" },
+            "it": { "label": "Vincoli Extra" },
+            "fr": { "label": "Contraintes Supplémentaires" },
+            "de": { "label": "Zusätzliche Einschränkungen" }
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "react-component",
+      "useCaseId": "coding",
+      "modelId": "claude-3-opus",
+      "values": {
+        "language": "TypeScript",
+        "framework": "React",
+        "level": "Senior",
+        "problem": {
+          "en": "Create a reusable Card component that accepts title, image, description, and an optional call-to-action button.",
+          "it": "Crea un componente Card riutilizzabile che accetta titolo, immagine, descrizione e un pulsante opzionale.",
+          "fr": "Créez un composant Carte réutilisable avec titre, image et description.",
+          "de": "Erstelle eine wiederverwendbare Kartenkomponente."
+        },
+        "extraInstructions": {
+          "en": "Use Tailwind CSS for styling. Ensure accessibility (ARIA).",
+          "it": "Usa Tailwind CSS per lo stile. Assicura accessibilità (ARIA).",
+          "fr": "Utilisez Tailwind CSS.",
+          "de": "Verwende Tailwind CSS."
+        }
+      },
+      "translations": {
+        "en": {
+          "name": "React Component",
+          "description": "Generates a clean, functional React component with TypeScript props."
+        },
+        "it": {
+          "name": "Componente React",
+          "description": "Genera un componente React funzionale e pulito con props TypeScript."
+        },
+        "fr": {
+          "name": "Composant React",
+          "description": "Génère un composant React propre et fonctionnel."
+        },
+        "de": {
+          "name": "React Komponente",
+          "description": "Erstellt eine saubere React-Komponente."
+        }
+      }
+    },
+    {
+      "id": "python-api",
+      "useCaseId": "coding",
+      "modelId": "gpt-4o",
+      "values": {
+        "language": "Python",
+        "framework": "Requests",
+        "level": "Senior",
+        "problem": {
+          "en": "Create a base API client class with error handling, retries, and authentication handling.",
+          "it": "Crea una classe client API di base con gestione errori, retry e autenticazione.",
+          "fr": "Créez une classe client API de base avec gestion des erreurs.",
+          "de": "Erstelle eine Basis-API-Client-Klasse mit Fehlerbehandlung."
+        },
+        "extraInstructions": {
+          "en": "Include type hints and docstrings.",
+          "it": "Includi type hints e docstrings.",
+          "fr": "Inclure les annotations de types et docstrings.",
+          "de": "Füge Type Hints und Docstrings hinzu."
+        }
+      },
+      "translations": {
+        "en": {
+          "name": "Python API Client",
+          "description": "Boilerplate for a robust Python API client using requests or httpx."
+        },
+        "it": {
+          "name": "Client API Python",
+          "description": "Boilerplate per un client API Python robusto."
+        },
+        "fr": {
+          "name": "Client API Python",
+          "description": "Template pour un client API Python robuste."
+        },
+        "de": {
+          "name": "Python API Client",
+          "description": "Vorlage für einen robusten Python API Client."
+        }
+      }
+    },
+    {
+      "id": "cold-email",
+      "useCaseId": "writing",
+      "modelId": "gpt-4o",
+      "values": {
+        "topic": {
+          "en": "SaaS Productivity Tool",
+          "it": "Strumento di Produttività SaaS",
+          "fr": "Outil SaaS",
+          "de": "SaaS Tool"
+        },
+        "tone": {
+          "en": "Professional but conversational",
+          "it": "Professionale ma colloquiale",
+          "fr": "Professionnel",
+          "de": "Professionell"
+        },
+        "audience": {
+          "en": "CTOs of Mid-sized Tech Companies",
+          "it": "CTO di aziende Tech medie",
+          "fr": "Décideurs Tech",
+          "de": "Geschäftsführer"
+        },
+        "format": {
+          "en": "Email",
+          "it": "Email",
+          "fr": "Email",
+          "de": "E-Mail"
+        },
+        "goal": {
+          "en": "Schedule a 15-minute demo call.",
+          "it": "Fissare una demo di 15 minuti.",
+          "fr": "Planifier une démo.",
+          "de": "Terminvereinbarung."
+        },
+        "extraInstructions": {
+          "en": "Focus on pain points regarding team alignment. Keep it under 150 words.",
+          "it": "Focalizzati sui problemi di allineamento del team. Mantienila sotto le 150 parole.",
+          "fr": "Court et concis.",
+          "de": "Kurz und prägnant."
+        }
+      },
+      "translations": {
+        "en": {
+          "name": "Cold Outreach Email",
+          "description": "Professional sales email optimized for conversion."
+        },
+        "it": {
+          "name": "Email a Freddo",
+          "description": "Email di vendita professionale ottimizzata per la conversione."
+        },
+        "fr": {
+          "name": "Email de Prospection",
+          "description": "Email de vente professionnel optimisé."
+        },
+        "de": {
+          "name": "Kaltakquise E-Mail",
+          "description": "Professionelle Verkaufs-E-Mail."
+        }
+      }
+    },
+    {
+      "id": "tech-blog",
+      "useCaseId": "writing",
+      "modelId": "claude-3-opus",
+      "values": {
+        "topic": {
+          "en": "Introduction to Vector Databases",
+          "it": "Introduzione ai Vector Database",
+          "fr": "Introduction aux bases de données vectorielles",
+          "de": "Einführung in Vektordatenbanken"
+        },
+        "tone": {
+          "en": "Educational and Authoritative",
+          "it": "Educativo e Autorevole",
+          "fr": "Éducatif et Autoritaire",
+          "de": "Lehrreich und Maßgebend"
+        },
+        "audience": {
+          "en": "Backend Developers",
+          "it": "Sviluppatori Backend",
+          "fr": "Développeurs Backend",
+          "de": "Backend-Entwickler"
+        },
+        "format": {
+          "en": "Blog Post",
+          "it": "Articolo Blog",
+          "fr": "Article de Blog",
+          "de": "Blog-Artikel"
+        },
+        "goal": {
+          "en": "Explain how vector embeddings work and their use in AI.",
+          "it": "Spiegare come funzionano gli embedding vettoriali e il loro uso nell'IA.",
+          "fr": "Expliquer le fonctionnement des embeddings vectoriels.",
+          "de": "Erklären wie Vektor-Embeddings funktionieren."
+        },
+        "extraInstructions": {
+          "en": "Use analogies to explain high-dimensional space.",
+          "it": "Usa analogie per spiegare lo spazio ad alta dimensionalità.",
+          "fr": "Utilisez des analogies pour expliquer l'espace de haute dimension.",
+          "de": "Verwende Analogien zur Erklärung hochdimensionaler Räume."
+        }
+      },
+      "translations": {
+        "en": {
+          "name": "Technical Blog Post",
+          "description": "Deep dive technical article explaining complex concepts."
+        },
+        "it": {
+          "name": "Articolo Tecnico",
+          "description": "Articolo tecnico approfondito per spiegare concetti complessi."
+        },
+        "fr": {
+          "name": "Article Technique",
+          "description": "Article technique approfondi expliquant des concepts complexes."
+        },
+        "de": {
+          "name": "Technischer Blog-Beitrag",
+          "description": "Tiefgehender technischer Artikel zur Erklärung komplexer Konzepte."
+        }
+      }
+    },
+    {
+      "id": "swot-analysis",
+      "useCaseId": "analysis",
+      "modelId": "gemini-1.5-pro",
+      "values": {
+        "dataDescription": {
+          "en": "[Insert Company Report or Market Data Here]",
+          "it": "[Inserisci Report Aziendale o Dati di Mercato Qui]",
+          "fr": "[Insérez le rapport d'entreprise ou les données de marché ici]",
+          "de": "[Unternehmensbericht oder Marktdaten hier einfügen]"
+        },
+        "objective": {
+          "en": "Conduct a comprehensive SWOT analysis.",
+          "it": "Condurre un'analisi SWOT completa.",
+          "fr": "Effectuer une analyse SWOT complète.",
+          "de": "Eine umfassende SWOT-Analyse durchführen."
+        },
+        "format": {
+          "en": "Detailed Report",
+          "it": "Report Dettagliato",
+          "fr": "Rapport Détaillé",
+          "de": "Detaillierter Bericht"
+        },
+        "extraInstructions": {
+          "en": "Prioritize actionable insights over generic observations.",
+          "it": "Dai priorità a insight azionabili rispetto a osservazioni generiche.",
+          "fr": "Priorisez les insights actionnables.",
+          "de": "Priorisiere umsetzbare Erkenntnisse."
+        }
+      },
+      "translations": {
+        "en": {
+          "name": "SWOT Analysis",
+          "description": "Structured analysis of Strengths, Weaknesses, Opportunities, and Threats."
+        },
+        "it": {
+          "name": "Analisi SWOT",
+          "description": "Analisi strutturata di Punti di Forza, Debolezze, Opportunità e Minacce."
+        },
+        "fr": {
+          "name": "Analyse SWOT",
+          "description": "Analyse structurée des Forces, Faiblesses, Opportunités et Menaces."
+        },
+        "de": {
+          "name": "SWOT-Analyse",
+          "description": "Strukturierte Analyse von Stärken, Schwächen, Chancen und Risiken."
+        }
+      }
+    },
+    {
+      "id": "interviewer",
+      "useCaseId": "roleplay",
+      "modelId": "gpt-4o",
+      "values": {
+        "character": {
+          "en": "Senior Staff Engineer at Google",
+          "it": "Senior Staff Engineer presso Google",
+          "fr": "Ingénieur Senior Staff chez Google",
+          "de": "Senior Staff Engineer bei Google"
+        },
+        "traits": {
+          "en": "Rigorous, fair, focused on scalability and trade-offs",
+          "it": "Rigoroso, giusto, focalizzato su scalabilità e trade-off",
+          "fr": "Rigoureux, équitable, axé sur la scalabilité",
+          "de": "Rigoros, fair, fokussiert auf Skalierbarkeit"
+        },
+        "setting": {
+          "en": "System Design Interview",
+          "it": "Colloquio di System Design",
+          "fr": "Entretien de Conception Système",
+          "de": "System Design Interview"
+        },
+        "scenario": {
+          "en": "Design a URL Shortener like bit.ly",
+          "it": "Progetta uno URL Shortener come bit.ly",
+          "fr": "Concevoir un raccourcisseur d'URL comme bit.ly",
+          "de": "Entwerfe einen URL Shortener wie bit.ly"
+        },
+        "extraInstructions": {
+          "en": "Ask probing questions about database choice (SQL vs NoSQL) and handling concurrent writes.",
+          "it": "Fai domande approfondite sulla scelta del database (SQL vs NoSQL) e sulla gestione delle scritture concorrenti.",
+          "fr": "Posez des questions approfondies sur le choix de base de données.",
+          "de": "Stelle tiefgehende Fragen zur Datenbankwahl."
+        }
+      },
+      "translations": {
+        "en": {
+          "name": "Tech Interviewer",
+          "description": "Simulates a senior engineer conducting a system design interview."
+        },
+        "it": {
+          "name": "Intervistatore Tech",
+          "description": "Simula un ingegnere senior che conduce un colloquio di system design."
+        },
+        "fr": {
+          "name": "Interviewer Tech",
+          "description": "Simule un ingénieur senior menant un entretien de conception système."
+        },
+        "de": {
+          "name": "Tech Interviewer",
+          "description": "Simuliert einen Senior Engineer bei einem System Design Interview."
+        }
+      }
+    }
+  ],
+  "phrases": {
+    "logic": {
+      "en": "THINK STEP-BY-STEP: Break down reasoning. Prioritize clarity.",
+      "it": "PENSA PASSO DOPO PASSO: Scomponi il ragionamento. Dai priorità alla chiarezza.",
+      "fr": "PENSEZ ÉTAPE PAR ÉTAPE : Décomposez le raisonnement. Priorisez la clarté.",
+      "de": "SCHRITT FÜR SCHRITT DENKEN: Brechen Sie die Argumentation auf. Priorität auf Klarheit."
+    },
+    "identity": {
+      "en": "You are an expert AI assistant.",
+      "it": "Sei un assistente AI esperto.",
+      "fr": "Vous êtes un assistant IA expert.",
+      "de": "Sie sind ein erfahrener KI-Assistent."
+    },
+    "noApology": {
+      "en": "Do not apologize. Get straight to the value.",
+      "it": "Non scusarti. Vai dritto al punto.",
+      "fr": "Ne vous excusez pas. Allez droit à l'essentiel.",
+      "de": "Entschuldigen Sie sich nicht. Kommen Sie direkt zum Punkt."
+    }
+  },
+  "modelStrategies": {
+    "gpt-4o": {
+      "header": "### {{core}}",
+      "lines": [
+        "{{identity}}",
+        "{{logic}}",
+        "{{noApology}}"
+      ]
+    },
+    "gpt-4.1": {
+      "header": "### {{core}}",
+      "intro": "You are GPT-4.1.",
+      "lines": [
+        "Focus on high-fidelity instruction following.",
+        "Minimize verbosity unless requested.",
+        "{{logic}}"
+      ]
+    },
+    "gpt-4.5-orion": {
+      "header": "### SYSTEM",
+      "intro": "You are GPT-4.5 (Orion).",
+      "lines": [
+        "Leverage your massive world knowledge.",
+        "Cross-reference facts implicitly.",
+        "Provide deep, nuanced answers."
+      ]
+    },
+    "gpt-5": {
+      "header": "### {{core}}",
+      "intro": "You are GPT-5.",
+      "lines": [
+        "Zero tolerance for hallucinations.",
+        "Perfect adherence to negative constraints.",
+        "{{logic}}"
+      ]
+    },
+    "gpt-5.1": {
+      "header": "### {{core}}",
+      "intro": "You are GPT-5.1.",
+      "lines": [
+        "Be fluid, creative, and extremely fast."
+      ]
+    },
+    "openai-o3": {
+      "header": "### REASONING ENGINE",
+      "intro": "You are OpenAI o3.",
+      "lines": [
+        "You excel at complex multi-step reasoning.",
+        "Before answering, perform an internal Chain-of-Thought.",
+        "Output the final answer clearly."
+      ]
+    },
+    "openai-o3-mini": {
+      "header": "### SYSTEM",
+      "intro": "You are OpenAI o3-mini.",
+      "lines": [
+        "Fast, efficient, reasoning-focused.",
+        "Optimize for conciseness without losing depth."
+      ]
+    },
+    "gemini-1.5-pro": {
+      "header": "### {{context}}",
+      "intro": "You are a highly advanced multimodal model (Gemini 1.5 Pro).",
+      "lines": [
+        "Use Markdown extensively (tables, bullets).",
+        "Ground responses in provided context."
+      ]
+    },
+    "gemini-2.5-pro": {
+      "header": "### {{context}}",
+      "intro": "You are Gemini 2.5 Pro.",
+      "lines": [
+        "Native multimodal understanding.",
+        "Fluid reasoning across text and concepts."
+      ]
+    },
+    "gemini-3-pro": {
+      "header": "### {{core}}",
+      "intro": "You are Gemini 3 Pro.",
+      "lines": [
+        "Use recursive reasoning for complex tasks.",
+        "Integrate broad context window data effectively."
+      ]
+    },
+    "gemma-3-27b": {
+      "header": "### INSTRUCTION",
+      "intro": "You are Gemma 3 (27b).",
+      "lines": [
+        "Be precise and efficient.",
+        "Strictly follow formatting rules."
+      ]
+    },
+    "claude-3-opus": {
+      "format": "xml",
+      "template": "<system_instruction>\n  You are Claude 3 Opus.\n  <thinking_process>\n    Analyze the user request semantically.\n  </thinking_process>\n  Be helpful and harmless.\n</system_instruction>"
+    },
+    "claude-3-5-sonnet": {
+      "format": "xml",
+      "template": "<system_context>\n  You are Claude 3.5 Sonnet.\n  - Concise, accurate, and extremely competent in coding.\n  <style_guide>\n    - Use strict <thinking> tags before answering complex queries.\n    - Prefer XML tags for structured output.\n  </style_guide>\n</system_context>"
+    },
+    "claude-4-opus": {
+      "format": "xml",
+      "template": "<system_prompt>\n  You are Claude 4 Opus.\n  - The most capable and nuanced AI model.\n  - Exhibit deep empathy and complex reasoning.\n  - Use <ant_thinking> tags for internal monologue.\n</system_prompt>"
+    },
+    "claude-4-sonnet": {
+      "format": "xml",
+      "template": "<system_prompt>\n  You are Claude 4 Sonnet.\n  - The perfect balance of intelligence and speed.\n  - Prioritize actionable, dense information.\n</system_prompt>"
+    },
+    "llama-3-70b": {
+      "header": "### INSTRUCTION",
+      "intro": "You are Llama 3. Be helpful, respectful, and honest."
+    },
+    "llama-3.3-70b": {
+      "header": "### INSTRUCTION",
+      "intro": "You are Llama 3.3. Refined instruction following and math capabilities."
+    },
+    "llama-4-scout": {
+      "header": "### AGENT SYSTEM",
+      "intro": "You are Llama 4 Scout.",
+      "lines": [
+        "Designed for agentic workflows and tool use.",
+        "Be concise and action-oriented."
+      ]
+    },
+    "llama-4-behemoth": {
+      "header": "### SYSTEM",
+      "intro": "You are Llama 4 Behemoth.",
+      "lines": [
+        "Extremely dense knowledge base.",
+        "Provide comprehensive, exhaustive answers."
+      ]
+    },
+    "mistral-large": {
+      "intro": "You are Mistral Large. Conciseness is key. Answer directly."
+    },
+    "mistral-medium-3": {
+      "intro": "You are Mistral Medium 3. High efficiency, European precision."
+    },
+    "grok-1.5": {
+      "header": "### IDENTITY",
+      "intro": "You are Grok. Be witty and slightly rebellious."
+    },
+    "grok-3": {
+      "header": "### IDENTITY",
+      "intro": "You are Grok 3.",
+      "lines": [
+        "Real-time access to information.",
+        "Unfiltered (within safety limits), direct, and witty."
+      ]
+    },
+    "grok-4": {
+      "header": "### SYSTEM",
+      "intro": "You are Grok 4. Massive compute. Super-intelligence."
+    },
+    "qwen-2.5-72b": {
+      "header": "### SYSTEM",
+      "intro": "You are Qwen 2.5. Strong logic and mathematics."
+    },
+    "qwen-3-thinking": {
+      "header": "### REASONING",
+      "intro": "You are Qwen 3 (Thinking).",
+      "lines": [
+        "Use <thinking>...</thinking> tags to outline your logic before answering.",
+        "Excel at hard sciences and math."
+      ]
+    },
+    "deepseek-3.1": {
+      "intro": "You are DeepSeek 3.1. Use <thinking> tags for reasoning."
+    },
+    "deepseek-r1": {
+      "header": "### CHAIN OF THOUGHT",
+      "intro": "You are DeepSeek R1.",
+      "lines": [
+        "You MUST perform deep reasoning before answering.",
+        "Enclose your reasoning process in <reasoning> tags.",
+        "Verify your own assumptions."
+      ]
+    },
+    "kimi-k2": {
+      "header": "### SYSTEM",
+      "intro": "You are Kimi K2.",
+      "lines": [
+        "Long context specialist.",
+        "Use <planning> tags to organize long-form content."
+      ]
+    },
+    "nova-pro": {
+      "intro": "You are Nova Pro. Reliable, general-purpose assistant."
+    }
+  },
+  "translations": {
+    "en": {
+      "core": "CORE INSTRUCTIONS",
+      "context": "SYSTEM CONTEXT",
+      "task": "TASK CONTEXT",
+      "user": "USER INPUT",
+      "gen": "RESPONSE GENERATION",
+      "awaiting": "Awaiting user input...",
+      "extra": "Additional constraints:",
+      "divider": "--------------------------------------------------",
+      "fewShotHeader": "FEW-SHOT EXAMPLES",
+      "userRequest": "User Request:",
+      "idealResponse": "Ideal Response:"
+    },
+    "it": {
+      "core": "ISTRUZIONI PRINCIPALI",
+      "context": "CONTESTO DI SISTEMA",
+      "task": "CONTESTO DEL TASK",
+      "user": "INPUT UTENTE",
+      "gen": "GENERAZIONE RISPOSTA",
+      "awaiting": "In attesa di input utente...",
+      "extra": "Vincoli aggiuntivi:",
+      "divider": "--------------------------------------------------",
+      "fewShotHeader": "ESEMPI FEW-SHOT",
+      "userRequest": "Richiesta Utente:",
+      "idealResponse": "Risposta Ideale:"
+    },
+    "fr": {
+      "core": "INSTRUCTIONS PRINCIPALES",
+      "context": "CONTEXTE SYSTÈME",
+      "task": "CONTEXTE DE LA TÂCHE",
+      "user": "ENTRÉE UTILISATEUR",
+      "gen": "GÉNÉRATION DE RÉPONSE",
+      "awaiting": "En attente de l'entrée utilisateur...",
+      "extra": "Contraintes supplémentaires :",
+      "divider": "--------------------------------------------------",
+      "fewShotHeader": "EXEMPLES FEW-SHOT",
+      "userRequest": "Demande Utilisateur :",
+      "idealResponse": "Réponse Idéale :"
+    },
+    "de": {
+      "core": "KERNANWEISUNGEN",
+      "context": "SYSTEMKONTEXT",
+      "task": "AUFGABENKONTEXT",
+      "user": "BENUTZEREINGABE",
+      "gen": "ANTWORTGENERIERUNG",
+      "awaiting": "Warte auf Benutzereingabe...",
+      "extra": "Zusätzliche Einschränkungen:",
+      "divider": "--------------------------------------------------",
+      "fewShotHeader": "FEW-SHOT BEISPIELE",
+      "userRequest": "Benutzeranfrage:",
+      "idealResponse": "Ideale Antwort:"
+    }
+  },
+  "instructionFooter": {
+    "en": "Please generate the response now, adhering to instructions above.",
+    "it": "Genera la risposta seguendo le istruzioni sopra.",
+    "fr": "Veuillez générer la réponse maintenant, en respectant les instructions ci-dessus.",
+    "de": "Bitte generieren Sie jetzt die Antwort und halten Sie sich an die obigen Anweisungen."
+  },
+  "contextLabels": {
+    "en": {
+      "task": "Task",
+      "lang": "Language",
+      "frame": "Framework",
+      "exp": "Experience",
+      "prob": "Problem",
+      "topic": "Topic",
+      "aud": "Audience",
+      "tone": "Tone",
+      "req": "Requirements"
+    },
+    "it": {
+      "task": "Compito",
+      "lang": "Linguaggio",
+      "frame": "Framework",
+      "exp": "Esperienza",
+      "prob": "Problema",
+      "topic": "Argomento",
+      "aud": "Pubblico",
+      "tone": "Tono",
+      "req": "Requisiti"
+    },
+    "fr": {
+      "task": "Tâche",
+      "lang": "Langage",
+      "frame": "Framework",
+      "exp": "Expérience",
+      "prob": "Problème",
+      "topic": "Sujet",
+      "aud": "Public",
+      "tone": "Ton",
+      "req": "Exigences"
+    },
+    "de": {
+      "task": "Aufgabe",
+      "lang": "Sprache",
+      "frame": "Framework",
+      "exp": "Erfahrung",
+      "prob": "Problem",
+      "topic": "Thema",
+      "aud": "Publikum",
+      "tone": "Ton",
+      "req": "Anforderungen"
+    }
+  },
+  "useCaseRequirements": {
+    "coding": {
+      "en": ["Write clean, maintainable code.", "Include comments for complex logic."],
+      "it": ["Scrivi codice pulito e mantenibile.", "Includi commenti per la logica complessa."],
+      "fr": ["Écrivez du code propre et maintenable.", "Incluez des commentaires pour la logique complexe."],
+      "de": ["Schreiben Sie sauberen, wartbaren Code.", "Fügen Sie Kommentare für komplexe Logik hinzu."]
+    },
+    "writing": {
+      "en": ["Engage the reader immediately.", "Use active voice."],
+      "it": ["Coinvolgi subito il lettore.", "Usa la voce attiva."],
+      "fr": ["Captez l'attention du lecteur immédiatement.", "Utilisez la voix active."],
+      "de": ["Fesseln Sie den Leser sofort.", "Verwenden Sie die aktive Stimme."]
+    },
+    "analysis": {
+      "en": ["Identify patterns and trends."],
+      "it": ["Identifica pattern e trend."],
+      "fr": ["Identifiez les modèles et les tendances."],
+      "de": ["Identifizieren Sie Muster und Trends."]
+    },
+    "roleplay": {
+      "en": ["Stay in character."],
+      "it": ["Rimani nel personaggio."],
+      "fr": ["Restez dans le personnage."],
+      "de": ["Bleiben Sie in der Rolle."]
+    }
+  },
+  "examples": {
+    "coding": {
+      "en": [
+        {
+          "request": "Create a React hook to handle local storage updates.",
+          "response": "```typescript\nimport { useState, useEffect } from 'react';\n\nfunction useLocalStorage<T>(key: string, initialValue: T) {\n  const [storedValue, setStoredValue] = useState<T>(() => {\n    try {\n      const item = window.localStorage.getItem(key);\n      return item ? JSON.parse(item) : initialValue;\n    } catch (error) {\n      return initialValue;\n    }\n  });\n\n  const setValue = (value: T | ((val: T) => T)) => {\n    try {\n      const valueToStore = value instanceof Function ? value(storedValue) : value;\n      setStoredValue(valueToStore);\n      window.localStorage.setItem(key, JSON.stringify(valueToStore));\n    } catch (error) {\n      console.error(error);\n    }\n  };\n\n  return [storedValue, setValue] as const;\n}\n\nexport default useLocalStorage;\n```"
+        }
+      ],
+      "it": [
+        {
+          "request": "Crea un hook React per gestire il local storage.",
+          "response": "```typescript\nimport { useState, useEffect } from 'react';\n\nfunction useLocalStorage<T>(key: string, initialValue: T) {\n  const [storedValue, setStoredValue] = useState<T>(() => {\n    try {\n      const item = window.localStorage.getItem(key);\n      return item ? JSON.parse(item) : initialValue;\n    } catch (error) {\n      return initialValue;\n    }\n  });\n\n  const setValue = (value: T | ((val: T) => T)) => {\n    try {\n      const valueToStore = value instanceof Function ? value(storedValue) : value;\n      setStoredValue(valueToStore);\n      window.localStorage.setItem(key, JSON.stringify(valueToStore));\n    } catch (error) {\n      console.error(error);\n    }\n  };\n\n  return [storedValue, setValue] as const;\n}\n\nexport default useLocalStorage;\n```"
+        }
+      ],
+      "fr": [
+        {
+          "request": "Créez un hook React pour gérer le localStorage.",
+          "response": "```typescript\nimport { useState, useEffect } from 'react';\n\nfunction useLocalStorage<T>(key: string, initialValue: T) {\n  const [storedValue, setStoredValue] = useState<T>(() => {\n    try {\n      const item = window.localStorage.getItem(key);\n      return item ? JSON.parse(item) : initialValue;\n    } catch (error) {\n      return initialValue;\n    }\n  });\n\n  const setValue = (value: T | ((val: T) => T)) => {\n    try {\n      const valueToStore = value instanceof Function ? value(storedValue) : value;\n      setStoredValue(valueToStore);\n      window.localStorage.setItem(key, JSON.stringify(valueToStore));\n    } catch (error) {\n      console.error(error);\n    }\n  };\n\n  return [storedValue, setValue] as const;\n}\n\nexport default useLocalStorage;\n```"
+        }
+      ],
+      "de": [
+        {
+          "request": "Erstelle einen React Hook für Local Storage Updates.",
+          "response": "```typescript\nimport { useState, useEffect } from 'react';\n\nfunction useLocalStorage<T>(key: string, initialValue: T) {\n  const [storedValue, setStoredValue] = useState<T>(() => {\n    try {\n      const item = window.localStorage.getItem(key);\n      return item ? JSON.parse(item) : initialValue;\n    } catch (error) {\n      return initialValue;\n    }\n  });\n\n  const setValue = (value: T | ((val: T) => T)) => {\n    try {\n      const valueToStore = value instanceof Function ? value(storedValue) : value;\n      setStoredValue(valueToStore);\n      window.localStorage.setItem(key, JSON.stringify(valueToStore));\n    } catch (error) {\n      console.error(error);\n    }\n  };\n\n  return [storedValue, setValue] as const;\n}\n\nexport default useLocalStorage;\n```"
+        }
+      ]
+    },
+    "writing": {
+      "en": [
+        {
+          "request": "Write a tweet about the new eco cup.",
+          "response": "THE WAIT IS OVER! Meet GreenSip 3000 - the world's first 100% ocean-plastic cup that keeps your coffee hot for 8 hours. Every sip = one less bottle in the sea. Pre-order now and join the revolution. #SustainableSipping #EcoFriendly"
+        }
+      ],
+      "it": [
+        {
+          "request": "Scrivi un tweet sul lancio della nuova tazza eco.",
+          "response": "L'ATTESA E' FINITA! Scopri GreenSip 3000 - la prima tazza al mondo in plastica oceanica riciclata che mantiene il tuo caffè caldo per 8 ore. Ogni sorso = una bottiglia in meno nel mare. Pre-ordina ora! #SorsataSostenibile #EcoFriendly"
+        }
+      ],
+      "fr": [
+        {
+          "request": "Écrivez un tweet sur la nouvelle tasse écologique.",
+          "response": "L'ATTENTE EST TERMINÉE ! Découvrez GreenSip 3000 - la première tasse au monde en plastique océanique recyclé qui garde votre café chaud pendant 8 heures. Chaque gorgée = une bouteille de moins dans la mer. Pré-commandez maintenant ! #ÉcoResponsable"
+        }
+      ],
+      "de": [
+        {
+          "request": "Schreibe einen Tweet über die neue Öko-Tasse.",
+          "response": "DAS WARTEN HAT EIN ENDE! Entdecke GreenSip 3000 - die weltweit erste Tasse aus Ozean-Plastik, die deinen Kaffee 8 Stunden warm hält. Jeder Schluck = eine Flasche weniger im Meer. Jetzt vorbestellen! #NachhaltigGenießen #ÖkoFreundlich"
+        }
+      ]
+    },
+    "analysis": {
+      "en": [
+        {
+          "request": "Analyze this sales data and identify the top performing regions.",
+          "response": "## Sales Analysis Summary\n\n### Top Performing Regions:\n1. **North America** - $2.4M (32% of total)\n2. **Western Europe** - $1.8M (24% of total)\n3. **Asia Pacific** - $1.5M (20% of total)\n\n### Key Insights:\n- North America shows 15% YoY growth\n- APAC emerging as fastest growing region (+28% QoQ)\n- Product category A drives 60% of revenue across all regions\n\n### Recommendations:\n- Increase marketing spend in APAC\n- Investigate underperformance in LATAM region"
+        }
+      ],
+      "it": [
+        {
+          "request": "Analizza questi dati di vendita e identifica le regioni più performanti.",
+          "response": "## Riepilogo Analisi Vendite\n\n### Regioni Top Performer:\n1. **Nord America** - $2.4M (32% del totale)\n2. **Europa Occidentale** - $1.8M (24% del totale)\n3. **Asia Pacifico** - $1.5M (20% del totale)\n\n### Insight Chiave:\n- Nord America mostra crescita del 15% YoY\n- APAC emerge come regione a crescita più rapida (+28% QoQ)\n- Categoria prodotto A genera il 60% dei ricavi\n\n### Raccomandazioni:\n- Aumentare spesa marketing in APAC\n- Investigare underperformance in LATAM"
+        }
+      ],
+      "fr": [
+        {
+          "request": "Analysez ces données de ventes et identifiez les régions les plus performantes.",
+          "response": "## Résumé de l'Analyse des Ventes\n\n### Régions les Plus Performantes:\n1. **Amérique du Nord** - 2,4M$ (32% du total)\n2. **Europe de l'Ouest** - 1,8M$ (24% du total)\n3. **Asie-Pacifique** - 1,5M$ (20% du total)\n\n### Insights Clés:\n- L'Amérique du Nord affiche une croissance de 15% en glissement annuel\n- L'APAC émerge comme région à croissance la plus rapide (+28% QoQ)\n\n### Recommandations:\n- Augmenter les dépenses marketing en APAC"
+        }
+      ],
+      "de": [
+        {
+          "request": "Analysiere diese Verkaufsdaten und identifiziere die leistungsstärksten Regionen.",
+          "response": "## Verkaufsanalyse Zusammenfassung\n\n### Top-Regionen:\n1. **Nordamerika** - $2,4M (32% des Gesamtumsatzes)\n2. **Westeuropa** - $1,8M (24% des Gesamtumsatzes)\n3. **Asien-Pazifik** - $1,5M (20% des Gesamtumsatzes)\n\n### Wichtige Erkenntnisse:\n- Nordamerika zeigt 15% Wachstum im Jahresvergleich\n- APAC als am schnellsten wachsende Region (+28% QoQ)\n\n### Empfehlungen:\n- Marketingausgaben in APAC erhöhen"
+        }
+      ]
+    },
+    "roleplay": {
+      "en": [
+        {
+          "request": "Act as a medieval blacksmith and describe your daily routine.",
+          "response": "*wipes sweat from brow with leather apron*\n\nAh, you wish to know of a smith's day? Very well, traveler.\n\nI rise before the sun, when the roosters first crow. The forge must be hot by dawn - I start with yesterday's embers and build the fire slow. Coal is precious, you see.\n\nBy morning light, I'm hammering iron - horseshoes mostly, the knight's mounts need them constant. Midday brings the farmers with their plows to mend. The afternoon? That's when I craft the fine work - hinges, locks, perhaps a blade if the Lord requires.\n\n*gestures to calloused hands*\n\nThese hands have shaped a thousand pieces. 'Tis honest work, though the heat... the heat never truly leaves you."
+        }
+      ],
+      "it": [
+        {
+          "request": "Interpreta un fabbro medievale e descrivi la tua routine quotidiana.",
+          "response": "*si asciuga il sudore dalla fronte con il grembiule di pelle*\n\nAh, vuoi sapere della giornata di un fabbro? Va bene, viaggiatore.\n\nMi alzo prima del sole, quando i galli cantano per la prima volta. La forgia deve essere calda all'alba - comincio con le braci di ieri e costruisco il fuoco lentamente. Il carbone è prezioso, vedi.\n\nAlla luce del mattino, martello il ferro - ferri di cavallo principalmente, i destrieri del cavaliere ne hanno sempre bisogno. A mezzogiorno arrivano i contadini con gli aratri da riparare. Il pomeriggio? È quando creo i lavori fini - cerniere, serrature, forse una lama se il Signore lo richiede.\n\n*indica le mani callose*\n\nQueste mani hanno forgiato mille pezzi. È lavoro onesto, anche se il calore... il calore non ti lascia mai veramente."
+        }
+      ],
+      "fr": [
+        {
+          "request": "Joue le rôle d'un forgeron médiéval et décris ta routine quotidienne.",
+          "response": "*essuie la sueur de son front avec son tablier de cuir*\n\nAh, vous voulez connaître la journée d'un forgeron ? Très bien, voyageur.\n\nJe me lève avant le soleil, quand les coqs chantent pour la première fois. La forge doit être chaude à l'aube - je commence avec les braises d'hier et construis le feu lentement. Le charbon est précieux, voyez-vous.\n\nÀ la lumière du matin, je martèle le fer - des fers à cheval surtout. À midi viennent les fermiers avec leurs charrues à réparer. L'après-midi ? C'est quand je crée les travaux fins - charnières, serrures, peut-être une lame si le Seigneur le demande.\n\n*montre ses mains calleuses*\n\nCes mains ont forgé mille pièces. C'est un travail honnête."
+        }
+      ],
+      "de": [
+        {
+          "request": "Spiele einen mittelalterlichen Schmied und beschreibe deinen Tagesablauf.",
+          "response": "*wischt sich den Schweiß von der Stirn mit der Lederschürze*\n\nAh, Ihr wollt vom Tag eines Schmieds wissen? Gut, Reisender.\n\nIch stehe vor der Sonne auf, wenn die Hähne zum ersten Mal krähen. Die Esse muss bei Tagesanbruch heiß sein - ich beginne mit der Glut von gestern und baue das Feuer langsam auf. Kohle ist kostbar, wisst Ihr.\n\nBeim Morgenlicht hämmere ich Eisen - hauptsächlich Hufeisen, die Pferde der Ritter brauchen sie ständig. Mittags kommen die Bauern mit ihren Pflügen zum Reparieren. Der Nachmittag? Da fertige ich die feinen Arbeiten - Scharniere, Schlösser, vielleicht eine Klinge, wenn der Herr es verlangt.\n\n*zeigt auf seine schwielige Hände*\n\nDiese Hände haben tausend Stücke geformt. Es ist ehrliche Arbeit."
+        }
+      ]
+    }
+  }
+}
