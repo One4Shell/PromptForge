@@ -153,6 +153,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-Made with ❤️ by [Lorenzo Fornara](https://github.com/lorenzofornara)
+Made with ❤️ by [Lorenzo Fornara](https://h4sh.it)
 
 </div>
