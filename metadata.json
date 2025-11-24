@@ -1,0 +1,5 @@
+{
+  "name": "PromptForge",
+  "description": "A client-side tool to generate highly optimized system prompts for LLMs like GPT-4, Gemini, and Claude based on specific use cases.",
+  "requestFramePermissions": []
+}
