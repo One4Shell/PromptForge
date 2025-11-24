@@ -782,6 +782,359 @@
           }
         }
       ]
+    },
+    {
+      "id": "education",
+      "icon": "GraduationCap",
+      "translations": {
+        "en": { "name": "Education & Learning" },
+        "it": { "name": "Istruzione e Apprendimento" },
+        "fr": { "name": "Éducation et Apprentissage" },
+        "de": { "name": "Bildung und Lernen" }
+      },
+      "fields": [
+        {
+          "key": "topic",
+          "type": "text",
+          "placeholder": "Quantum Physics, Algebra...",
+          "translations": {
+            "en": { "label": "Subject / Topic" },
+            "it": { "label": "Materia / Argomento" },
+            "fr": { "label": "Sujet / Thème" },
+            "de": { "label": "Fach / Thema" }
+          }
+        },
+        {
+          "key": "studentLevel",
+          "type": "select",
+          "options": ["Elementary", "High School", "Undergraduate", "Professional"],
+          "placeholder": "Select...",
+          "translations": {
+            "en": { "label": "Target Level" },
+            "it": { "label": "Livello Studente" },
+            "fr": { "label": "Niveau Cible" },
+            "de": { "label": "Zielniveau" }
+          }
+        },
+        {
+          "key": "goal",
+          "type": "select",
+          "options": ["Tutoring/Explanation", "Quiz Generation", "Lesson Plan", "Summary"],
+          "placeholder": "Select...",
+          "translations": {
+            "en": { "label": "Goal" },
+            "it": { "label": "Obiettivo" },
+            "fr": { "label": "Objectif" },
+            "de": { "label": "Ziel" }
+          }
+        },
+        {
+          "key": "format",
+          "type": "text",
+          "placeholder": "Socratic method, Analogies...",
+          "translations": {
+            "en": { "label": "Teaching Style / Format" },
+            "it": { "label": "Stile / Formato" },
+            "fr": { "label": "Style d'Enseignement" },
+            "de": { "label": "Lehrstil" }
+          }
+        },
+        {
+          "key": "extraInstructions",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Extra Constraints" },
+            "it": { "label": "Vincoli Extra" },
+            "fr": { "label": "Contraintes Supplémentaires" },
+            "de": { "label": "Zusätzliche Einschränkungen" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "customer_support",
+      "icon": "Headphones",
+      "translations": {
+        "en": { "name": "Customer Support" },
+        "it": { "name": "Servizio Clienti" },
+        "fr": { "name": "Service Client" },
+        "de": { "name": "Kundenservice" }
+      },
+      "fields": [
+        {
+          "key": "scenario",
+          "type": "textarea",
+          "placeholder": "Customer email or chat transcript...",
+          "translations": {
+            "en": { "label": "Interaction Context" },
+            "it": { "label": "Contesto Interazione" },
+            "fr": { "label": "Contexte de l'Interaction" },
+            "de": { "label": "Interaktionskontext" }
+          }
+        },
+        {
+          "key": "customerIntent",
+          "type": "text",
+          "placeholder": "Refund request, Technical issue...",
+          "translations": {
+            "en": { "label": "Customer Intent" },
+            "it": { "label": "Intento Cliente" },
+            "fr": { "label": "Intention du Client" },
+            "de": { "label": "Kundenabsicht" }
+          }
+        },
+        {
+          "key": "policyConstraints",
+          "type": "textarea",
+          "placeholder": "No refunds after 30 days...",
+          "translations": {
+            "en": { "label": "Policy / Knowledge Base" },
+            "it": { "label": "Policy / Knowledge Base" },
+            "fr": { "label": "Politique / Base de Connaissances" },
+            "de": { "label": "Richtlinien / Wissensdatenbank" }
+          }
+        },
+        {
+          "key": "outputFormat",
+          "type": "select",
+          "options": ["Draft Response (Email)", "Chat Script", "Summary & Sentiment"],
+          "placeholder": "Select...",
+          "translations": {
+            "en": { "label": "Output Type" },
+            "it": { "label": "Tipo Output" },
+            "fr": { "label": "Type de Sortie" },
+            "de": { "label": "Ausgabetyp" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "icon": "Briefcase",
+      "translations": {
+        "en": { "name": "Business & Strategy" },
+        "it": { "name": "Business & Strategia" },
+        "fr": { "name": "Affaires & Stratégie" },
+        "de": { "name": "Wirtschaft & Strategie" }
+      },
+      "fields": [
+        {
+          "key": "marketContext",
+          "type": "textarea",
+          "placeholder": "Market data, Competitor list, Company info...",
+          "translations": {
+            "en": { "label": "Market / Context Data" },
+            "it": { "label": "Dati di Mercato / Contesto" },
+            "fr": { "label": "Données du Marché" },
+            "de": { "label": "Marktdaten / Kontext" }
+          }
+        },
+        {
+          "key": "framework",
+          "type": "select",
+          "options": ["SWOT Analysis", "Business Model Canvas", "Competitor Analysis", "PESTEL"],
+          "placeholder": "Select...",
+          "translations": {
+            "en": { "label": "Framework" },
+            "it": { "label": "Framework" },
+            "fr": { "label": "Cadre d'Analyse" },
+            "de": { "label": "Rahmenwerk" }
+          }
+        },
+        {
+          "key": "objective",
+          "type": "text",
+          "placeholder": "Identify growth opportunities...",
+          "translations": {
+            "en": { "label": "Strategic Objective" },
+            "it": { "label": "Obiettivo Strategico" },
+            "fr": { "label": "Objectif Stratégique" },
+            "de": { "label": "Strategisches Ziel" }
+          }
+        },
+        {
+          "key": "extraInstructions",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Extra Constraints" },
+            "it": { "label": "Vincoli Extra" },
+            "fr": { "label": "Contraintes Supplémentaires" },
+            "de": { "label": "Zusätzliche Einschränkungen" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "icon": "Palette",
+      "translations": {
+        "en": { "name": "Creativity & Design" },
+        "it": { "name": "Creatività e Design" },
+        "fr": { "name": "Créativité et Design" },
+        "de": { "name": "Kreativität und Design" }
+      },
+      "fields": [
+        {
+          "key": "concept",
+          "type": "textarea",
+          "placeholder": "A cyberpunk city in the rain...",
+          "translations": {
+            "en": { "label": "Core Concept / Idea" },
+            "it": { "label": "Concetto Chiave / Idea" },
+            "fr": { "label": "Concept Principal" },
+            "de": { "label": "Kernkonzept / Idee" }
+          }
+        },
+        {
+          "key": "mediaType",
+          "type": "select",
+          "options": ["Image Prompt (Text-to-Image)", "Short Story", "Screenplay / Script", "Character Design"],
+          "placeholder": "Select...",
+          "translations": {
+            "en": { "label": "Media Type" },
+            "it": { "label": "Tipo Media" },
+            "fr": { "label": "Type de Média" },
+            "de": { "label": "Medientyp" }
+          }
+        },
+        {
+          "key": "style",
+          "type": "text",
+          "placeholder": "Noir, Pixar-style, Hemingway...",
+          "translations": {
+            "en": { "label": "Style / Aesthetic" },
+            "it": { "label": "Stile / Estetica" },
+            "fr": { "label": "Style / Esthétique" },
+            "de": { "label": "Stil / Ästhetik" }
+          }
+        },
+        {
+          "key": "mood",
+          "type": "text",
+          "placeholder": "Melancholic, Energetic...",
+          "translations": {
+            "en": { "label": "Mood / Atmosphere" },
+            "it": { "label": "Mood / Atmosfera" },
+            "fr": { "label": "Ambiance" },
+            "de": { "label": "Stimmung / Atmosphäre" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "translation",
+      "icon": "Languages",
+      "translations": {
+        "en": { "name": "Translation & Localization" },
+        "it": { "name": "Traduzione e Localizzazione" },
+        "fr": { "name": "Traduction et Localisation" },
+        "de": { "name": "Übersetzung und Lokalisierung" }
+      },
+      "fields": [
+        {
+          "key": "sourceText",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Source Text" },
+            "it": { "label": "Testo Sorgente" },
+            "fr": { "label": "Texte Source" },
+            "de": { "label": "Quelltext" }
+          }
+        },
+        {
+          "key": "targetLanguage",
+          "type": "text",
+          "placeholder": "Italian, Japanese (Kansai dialect)...",
+          "translations": {
+            "en": { "label": "Target Language/Locale" },
+            "it": { "label": "Lingua/Locale Target" },
+            "fr": { "label": "Langue Cible" },
+            "de": { "label": "Zielsprache" }
+          }
+        },
+        {
+          "key": "context",
+          "type": "text",
+          "placeholder": "Marketing Website, Legal Contract, Slang...",
+          "translations": {
+            "en": { "label": "Context / Tone" },
+            "it": { "label": "Contesto / Tono" },
+            "fr": { "label": "Contexte / Ton" },
+            "de": { "label": "Kontext / Ton" }
+          }
+        },
+        {
+          "key": "culturalNotes",
+          "type": "textarea",
+          "placeholder": "...",
+          "translations": {
+            "en": { "label": "Cultural Nuances" },
+            "it": { "label": "Sfumature Culturali" },
+            "fr": { "label": "Nuances Culturelles" },
+            "de": { "label": "Kulturelle Nuancen" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "project_management",
+      "icon": "Kanban",
+      "translations": {
+        "en": { "name": "Project Management" },
+        "it": { "name": "Gestione Progetto" },
+        "fr": { "name": "Gestion de Projet" },
+        "de": { "name": "Projektmanagement" }
+      },
+      "fields": [
+        {
+          "key": "projectScope",
+          "type": "textarea",
+          "placeholder": "Building a mobile app for dog walkers...",
+          "translations": {
+            "en": { "label": "Project Scope" },
+            "it": { "label": "Ambito Progetto" },
+            "fr": { "label": "Portée du Projet" },
+            "de": { "label": "Projektumfang" }
+          }
+        },
+        {
+          "key": "outputType",
+          "type": "select",
+          "options": ["User Stories", "Task Breakdown (WBS)", "Project Plan", "Risk Assessment"],
+          "placeholder": "Select...",
+          "translations": {
+            "en": { "label": "Output Type" },
+            "it": { "label": "Tipo Output" },
+            "fr": { "label": "Type de Sortie" },
+            "de": { "label": "Ausgabetyp" }
+          }
+        },
+        {
+          "key": "methodology",
+          "type": "text",
+          "placeholder": "Agile Scrum, Waterfall...",
+          "translations": {
+            "en": { "label": "Methodology" },
+            "it": { "label": "Metodologia" },
+            "fr": { "label": "Méthodologie" },
+            "de": { "label": "Methodik" }
+          }
+        },
+        {
+          "key": "stakeholders",
+          "type": "text",
+          "placeholder": "Dev Team, Product Owner...",
+          "translations": {
+            "en": { "label": "Stakeholders / Roles" },
+            "it": { "label": "Stakeholder / Ruoli" },
+            "fr": { "label": "Parties Prenantes" },
+            "de": { "label": "Stakeholder" }
+          }
+        }
+      ]
     }
   ],
   "templates": [
@@ -1432,6 +1785,42 @@
       "it": ["Rimani nel personaggio."],
       "fr": ["Restez dans le personnage."],
       "de": ["Bleiben Sie in der Rolle."]
+    },
+    "education": {
+      "en": ["Adapt complexity to the student's level.", "Use analogies for difficult concepts."],
+      "it": ["Adatta la complessità al livello dello studente.", "Usa analogie per concetti difficili."],
+      "fr": ["Adaptez la complexité au niveau de l'étudiant.", "Utilisez des analogies."],
+      "de": ["Passen Sie die Komplexität an das Niveau des Schülers an.", "Verwenden Sie Analogien."]
+    },
+    "customer_support": {
+      "en": ["Be empathetic and polite.", "Reference policy constraints strictly."],
+      "it": ["Sii empatico ed educato.", "Fai riferimento rigoroso ai vincoli della policy."],
+      "fr": ["Soyez empathique et poli.", "Référez-vous strictement aux politiques."],
+      "de": ["Seien Sie empathisch und höflich.", "Beziehen Sie sich strikt auf Richtlinien."]
+    },
+    "business": {
+      "en": ["Use standard strategic frameworks.", "Provide actionable insights."],
+      "it": ["Usa framework strategici standard.", "Fornisci insight azionabili."],
+      "fr": ["Utilisez des cadres stratégiques standard.", "Fournissez des insights actionnables."],
+      "de": ["Verwenden Sie strategische Standardrahmenwerke.", "Liefern Sie umsetzbare Erkenntnisse."]
+    },
+    "creative": {
+      "en": ["Focus on sensory details.", "Maintain consistent style and mood."],
+      "it": ["Concentrati sui dettagli sensoriali.", "Mantieni stile e mood coerenti."],
+      "fr": ["Concentrez-vous sur les détails sensoriels.", "Maintenez un style cohérent."],
+      "de": ["Konzentrieren Sie sich auf sensorische Details.", "Bewahren Sie Stil und Stimmung."]
+    },
+    "translation": {
+      "en": ["Preserve cultural nuance, not just literal meaning.", "Adapt idioms appropriately."],
+      "it": ["Preserva le sfumature culturali, non solo il significato letterale.", "Adatta i modi di dire."],
+      "fr": ["Préservez les nuances culturelles.", "Adaptez les expressions idiomatiques."],
+      "de": ["Bewahren Sie kulturelle Nuancen.", "Passen Sie Redewendungen an."]
+    },
+    "project_management": {
+      "en": ["Be precise with scope definitions.", "Break down tasks atomically."],
+      "it": ["Sii preciso con le definizioni dell'ambito.", "Scomponi i task in modo atomico."],
+      "fr": ["Soyez précis sur la portée.", "Décomposez les tâches de manière atomique."],
+      "de": ["Seien Sie präzise bei der Umfangsdefinition.", "Brechen Sie Aufgaben atomar herunter."]
     }
   },
   "examples": {
@@ -1536,6 +1925,162 @@
         {
           "request": "Spiele einen mittelalterlichen Schmied und beschreibe deinen Tagesablauf.",
           "response": "*wischt sich den Schweiß von der Stirn mit der Lederschürze*\n\nAh, Ihr wollt vom Tag eines Schmieds wissen? Gut, Reisender.\n\nIch stehe vor der Sonne auf, wenn die Hähne zum ersten Mal krähen. Die Esse muss bei Tagesanbruch heiß sein - ich beginne mit der Glut von gestern und baue das Feuer langsam auf. Kohle ist kostbar, wisst Ihr.\n\nBeim Morgenlicht hämmere ich Eisen - hauptsächlich Hufeisen, die Pferde der Ritter brauchen sie ständig. Mittags kommen die Bauern mit ihren Pflügen zum Reparieren. Der Nachmittag? Da fertige ich die feinen Arbeiten - Scharniere, Schlösser, vielleicht eine Klinge, wenn der Herr es verlangt.\n\n*zeigt auf seine schwielige Hände*\n\nDiese Hände haben tausend Stücke geformt. Es ist ehrliche Arbeit."
+        }
+      ]
+    },
+    "education": {
+      "en": [
+        {
+          "request": "Explain quantum entanglement to a 10-year-old using analogies.",
+          "response": "Imagine you have a pair of magic dice. Usually, when you roll two dice, they land on random numbers, right? \n\nBut with \"entangled\" dice, they share a secret connection. If you take one die to the moon and keep one here on Earth, and then you roll them both at the exact same time... if the one on Earth shows a 6, the one on the moon will ALSO show a 6. Instantly! It's like they can talk to each other faster than a text message, no matter how far apart they are."
+        }
+      ],
+      "it": [
+        {
+          "request": "Spiega l'entanglement quantistico a un bambino di 10 anni usando analogie.",
+          "response": "Immagina di avere un paio di dadi magici. Di solito, quando lanci due dadi, escono numeri a caso, giusto?\n\nMa con i dadi \"entangled\" (intrecciati), c'è una connessione segreta. Se porti un dado sulla Luna e ne tieni uno qui sulla Terra, e poi li lanci entrambi nello stesso momento... se quello sulla Terra mostra un 6, anche quello sulla Luna mostrerà un 6. Istantaneamente! È come se potessero parlarsi più velocemente di un messaggio, non importa quanto siano lontani."
+        }
+      ],
+      "fr": [
+        {
+          "request": "Expliquez l'intrication quantique à un enfant de 10 ans.",
+          "response": "Imagine que tu as deux dés magiques. Normalement, quand tu les lances, ils donnent des chiffres au hasard.\n\nMais avec des dés 'intriqués', ils sont connectés. Si tu emmènes un dé sur la Lune et gardes l'autre sur Terre, et que tu les lances en même temps... si celui sur Terre fait un 6, celui sur la Lune fera AUSSI un 6. C'est comme s'ils se parlaient instantanément, peu importe la distance."
+        }
+      ],
+      "de": [
+        {
+          "request": "Erkläre Quantenverschränkung einem 10-Jährigen.",
+          "response": "Stell dir vor, du hast zwei magische Würfel. Normalerweise zeigen sie zufällige Zahlen.\n\nAber bei 'verschränkten' Würfeln sind sie verbunden. Wenn du einen zum Mond bringst und einen hier behältst und beide gleichzeitig würfelst... wenn der auf der Erde eine 6 zeigt, zeigt der auf dem Mond AUCH eine 6. Sofort! Als ob sie sich schneller als eine SMS unterhalten könnten."
+        }
+      ]
+    },
+    "customer_support": {
+      "en": [
+        {
+          "request": "Write a polite email refusing a refund because the request is past 30 days.",
+          "response": "Subject: Regarding your refund request for Order #12345\n\nDear [Name],\n\nThank you for contacting us. I completely understand your frustration with the issue you've encountered.\n\nWhile we always aim to support our customers, our Refund Policy allows for returns within 30 days of purchase. As this order was placed on [Date - 45 days ago], we are unable to process a refund at this time.\n\nHowever, I'd be happy to offer you a 15% discount on your next purchase as a gesture of goodwill.\n\nBest regards,\n[Your Name]"
+        }
+      ],
+      "it": [
+        {
+          "request": "Scrivi un'email gentile per rifiutare un rimborso oltre i 30 giorni.",
+          "response": "Oggetto: In merito alla tua richiesta di rimborso per l'Ordine #12345\n\nGentile [Nome],\n\nGrazie per averci contattato. Capisco perfettamente la frustrazione per il problema riscontrato.\n\nPurtroppo, la nostra politica prevede i rimborsi entro 30 giorni dall'acquisto. Poiché l'ordine risale a [Data - 45 giorni fa], non siamo in grado di procedere con il rimborso in questo momento.\n\nTuttavia, sarei felice di offrirti uno sconto del 15% sul tuo prossimo acquisto come gesto di buona volontà.\n\nCordiali saluti,\n[Tuo Nome]"
+        }
+      ],
+      "fr": [
+        {
+          "request": "Écrivez un email poli refusant un remboursement (délai dépassé).",
+          "response": "Objet : Concernant votre demande de remboursement\n\nCher [Nom],\n\nMerci de nous avoir contactés. Je comprends votre situation.\n\nBien que nous souhaitions aider, notre politique de remboursement est limitée à 30 jours. Comme votre commande date de plus de 30 jours, nous ne pouvons pas procéder au remboursement.\n\nJe peux cependant vous offrir 15% de réduction sur votre prochaine commande.\n\nCordialement,\n[Votre Nom]"
+        }
+      ],
+      "de": [
+        {
+          "request": "Schreibe eine höfliche E-Mail, die eine Rückerstattung ablehnt (über 30 Tage).",
+          "response": "Betreff: Ihre Rückerstattungsanfrage\n\nHallo [Name],\n\nvielen Dank für Ihre Nachricht. Ich verstehe Ihren Ärger.\n\nLeider erlaubt unsere Richtlinie Rückerstattungen nur innerhalb von 30 Tagen. Da Ihre Bestellung länger zurückliegt, können wir keine Rückerstattung vornehmen.\n\nGerne biete ich Ihnen jedoch 15% Rabatt auf Ihren nächsten Einkauf an.\n\nBeste Grüße,\n[Ihr Name]"
+        }
+      ]
+    },
+    "business": {
+      "en": [
+        {
+          "request": "Perform a PESTEL analysis for an EV car company entering the Indian market.",
+          "response": "### PESTEL Analysis: EV Expansion in India\n\n**Political:**\n- Govt subsidies (FAME II scheme) support EV adoption.\n- High import duties on luxury EVs favor local manufacturing.\n\n**Economic:**\n- Rising middle class with disposable income.\n- High sensitivity to upfront costs vs long-term fuel savings.\n\n**Social:**\n- Increasing environmental awareness.\n- Status symbol value of high-tech cars.\n\n**Technological:**\n- Charging infrastructure is growing but currently inadequate in rural areas.\n- Battery swapping tech is gaining traction.\n\n**Legal:**\n- Scrappage policy for old vehicles creates demand.\n\n**Environmental:**\n- Severe air pollution in metros pushes policy towards clean energy."
+        }
+      ],
+      "it": [
+        {
+          "request": "Fai un'analisi PESTEL per un'azienda di auto elettriche che entra nel mercato indiano.",
+          "response": "### Analisi PESTEL: Espansione EV in India\n\n**Politico:**\n- Sussidi governativi (FAME II) supportano l'adozione.\n- Dazi elevati sull'import favoriscono la produzione locale.\n\n**Economico:**\n- Classe media in crescita.\n- Alta sensibilità al prezzo iniziale.\n\n**Sociale:**\n- Aumento consapevolezza ambientale.\n- Status symbol delle auto hi-tech.\n\n**Tecnologico:**\n- Infrastruttura di ricarica in crescita ma ancora carente.\n\n**Legale:**\n- Politiche di rottamazione vecchi veicoli.\n\n**Ambientale:**\n- Inquinamento severo nelle metropoli spinge verso energia pulita."
+        }
+      ],
+      "fr": [
+        {
+          "request": "Faites une analyse PESTEL pour une entreprise de véhicules électriques en Inde.",
+          "response": "### Analyse PESTEL : Expansion EV en Inde\n\n**Politique :** Subventions gouvernementales fortes.\n**Économique :** Classe moyenne grandissante, sensibilité aux prix.\n**Social :** Conscience écologique en hausse.\n**Technologique :** Infrastructure de recharge encore faible.\n**Légal :** Normes d'émissions plus strictes.\n**Environnemental :** La pollution pousse à l'adoption des VE."
+        }
+      ],
+      "de": [
+        {
+          "request": "Erstelle eine PESTEL-Analyse für einen E-Auto-Hersteller in Indien.",
+          "response": "### PESTEL-Analyse: EV-Expansion in Indien\n\n**Politisch:** Staatliche Subventionen fördern E-Mobilität.\n**Wirtschaftlich:** Wachsende Mittelschicht, Preissensibilität.\n**Sozial:** Steigendes Umweltbewusstsein.\n**Technologisch:** Ladeinfrastruktur wächst, aber noch lückenhaft.\n**Rechtlich:** Abwrackprämien für alte Autos.\n**Ökologisch:** Starke Luftverschmutzung treibt Wandel an."
+        }
+      ]
+    },
+    "creative": {
+      "en": [
+        {
+          "request": "Write a prompt for an image generator: A futuristic Tokyo.",
+          "response": "Cyberpunk Tokyo street level, night time, heavy rain reflecting neon lights on wet asphalt. Towering skyscrapers with holographic advertisements in pink and teal. A lone figure in a transparent raincoat holds a glowing umbrella. Cinematic lighting, photorealistic, 8k resolution, ray tracing, unreal engine 5 render style."
+        }
+      ],
+      "it": [
+        {
+          "request": "Scrivi un prompt per generare un'immagine: Tokyo futuristica.",
+          "response": "Strada di Tokyo cyberpunk, notte, pioggia battente che riflette luci al neon sull'asfalto bagnato. Grattacieli imponenti con pubblicità olografiche rosa e turchese. Una figura solitaria in impermeabile trasparente con ombrello luminoso. Illuminazione cinematografica, fotorealistico, risoluzione 8k, ray tracing."
+        }
+      ],
+      "fr": [
+        {
+          "request": "Écrivez un prompt pour une image : Tokyo futuriste.",
+          "response": "Rue de Tokyo cyberpunk, nuit, pluie intense reflétant les néons. Gratte-ciels avec publicités holographiques roses et bleues. Une silhouette solitaire avec un parapluie lumineux. Éclairage cinématographique, photoréaliste, 8k."
+        }
+      ],
+      "de": [
+        {
+          "request": "Schreibe einen Bild-Prompt: Futuristisches Tokio.",
+          "response": "Cyberpunk Tokio Straße, Nacht, starker Regen reflektiert Neonlichter. Riesige Wolkenkratzer mit holografischer Werbung in Pink und Türkis. Eine einsame Figur mit leuchtendem Regenschirm. Kinematografische Beleuchtung, fotorealistisch, 8k."
+        }
+      ]
+    },
+    "translation": {
+      "en": [
+        {
+          "request": "Translate 'It's raining cats and dogs' to Italian, French, and German ensuring idiomatic correctness.",
+          "response": "**Italian:** Piove a catinelle. (Lit: It's raining mostly from basins)\n**French:** Il pleut des cordes. (Lit: It's raining ropes)\n**German:** Es regnet in Strömen. (Lit: It's raining in streams)"
+        }
+      ],
+      "it": [
+        {
+          "request": "Traduci 'It's raining cats and dogs' in Italiano, Francese e Tedesco in modo idiomatico.",
+          "response": "**Italiano:** Piove a catinelle.\n**Francese:** Il pleut des cordes.\n**Tedesco:** Es regnet in Strömen."
+        }
+      ],
+      "fr": [
+        {
+          "request": "Traduisez 'It's raining cats and dogs' de manière idiomatique.",
+          "response": "**Italien :** Piove a catinelle.\n**Français :** Il pleut des cordes.\n**Allemand :** Es regnet in Strömen."
+        }
+      ],
+      "de": [
+        {
+          "request": "Übersetze 'It's raining cats and dogs' idiomatisch.",
+          "response": "**Italienisch:** Piove a catinelle.\n**Französisch:** Il pleut des cordes.\n**Deutsch:** Es regnet in Strömen."
+        }
+      ]
+    },
+    "project_management": {
+      "en": [
+        {
+          "request": "Generate user stories for a Login feature.",
+          "response": "1. **As a** registered user, **I want to** enter my email and password, **so that** I can access my account.\n2. **As a** user who forgot their password, **I want to** request a reset link via email, **so that** I can regain access.\n3. **As a** security officer, **I want to** lock accounts after 5 failed attempts, **so that** brute-force attacks are prevented."
+        }
+      ],
+      "it": [
+        {
+          "request": "Genera user stories per una funzionalità di Login.",
+          "response": "1. **Come** utente registrato, **voglio** inserire email e password, **in modo da** accedere al mio account.\n2. **Come** utente che ha dimenticato la password, **voglio** richiedere un link di reset, **in modo da** recuperare l'accesso.\n3. **Come** responsabile sicurezza, **voglio** bloccare gli account dopo 5 tentativi falliti, **in modo da** prevenire attacchi brute-force."
+        }
+      ],
+      "fr": [
+        {
+          "request": "Générez des User Stories pour une fonction de connexion.",
+          "response": "1. **En tant que** utilisateur, **je veux** me connecter avec email/mdp, **afin de** voir mon compte.\n2. **En tant que** utilisateur, **je veux** réinitialiser mon mot de passe, **afin de** récupérer mon accès.\n3. **En tant que** admin, **je veux** bloquer les comptes après 5 échecs, **afin de** sécuriser le système."
+        }
+      ],
+      "de": [
+        {
+          "request": "Erstelle User Stories für ein Login-Feature.",
+          "response": "1. **Als** Nutzer **will ich** mich mit E-Mail/Passwort anmelden, **um** auf mein Konto zuzugreifen.\n2. **Als** Nutzer **will ich** mein Passwort zurücksetzen können, **um** den Zugriff wiederherzustellen.\n3. **Als** Admin **will ich** Konten nach 5 Fehlversuchen sperren, **um** Brute-Force-Angriffe zu verhindern."
         }
       ]
     }
